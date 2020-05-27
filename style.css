@@ -2,3 +2,23 @@ body {
 	font-family: Arial, sans-serif;
 	text-transform: capitalize;
 }
+
+.album-cover{
+	width : 128px;
+	height: 128px;
+	background-image: url(https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/7/4/0/d/740d5e0fd272d2421d441e9fd5c08fdd.jpg);
+	background-size: cover; /* cover toàn bộ nền*/
+	background-position: center; /* chọn từ giữa hình chọn ra */
+	color: #FFF;
+}
+
+.album-cover .overlay {
+	height: 100%;
+	background: linear-gradient(180deg, rgba(0,0,0,0.0032387955182072714) 10%, rgba(0,0,0,1) 150%);
+	display: flex;
+	align-items: flex-end;
+	padding: 8px;
+	font-size: 20px;
+	box-sizing: border-box; 
+	/*Không làm thay đổi kích thước của overlay bỏi padding*/
+}
