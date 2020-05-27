@@ -1,0 +1,32 @@
+body {
+	font-family: Arial, sans-serif;
+	text-transform: capitalize;
+}
+.chart-item {
+	border-bottom: 1px solid #DDD;
+}
+.z-card {
+	display: flex;
+	align-items: center;
+	padding: 5px 0px;
+}
+.number{
+	font-size: 20px;
+	padding: 20px 25px;
+}
+.card-info {
+	flex-grow: 1;
+}
+.card-info .title{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.card-info .singer{
+	font-size: 14px;
+	color: #BBB;
+}
+.z-card .view{
+	font-size: 14px;
+	padding: 10px 5px;
+	color: #BBB;
+}
